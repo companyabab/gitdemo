@@ -1,0 +1,110 @@
+Git and Github Overview:
+
+Why git ?
+1)History
+2)Collabration
+3)Feature Branching
+
+Industry Standard 
+
+→ install git 
+→ create an account in gitHub
+
+
+Installing Git in centos  : 
+
+→# yum install git 
+
+Terminology in Git :
+
+→ In Git a project is considered as  a REPOSITORY (or)  repo
+→ the current working directory is considered as Working Directory 
+→ there is a process called staging 
+→ commit  is git way of saving our Working Directory 
+
+
+Work Flow : 
+
+Working Directory → Modified files → Staging Area → Commited
+
+
+Configuring Git:
+
+ #git  configure --global user.name “dhanunjaya”
+ #git  configure --global user.email  “company.abab@gmail.com”
+ #git  configure --list
+
+→ Creating Working Directory 
+
+#mkdir git
+#cd git 
+#mkdir project 
+#cd project
+#touch file
+
+
+To keep tracking of this project working directory use this command
+
+#git init
+
+
+
+→ Modifing Files in working Directory 
+
+#touch file //edit the file
+
+→ Staging Area:
+
+# git status
+#git add -A ( adding file to git)
+#git status
+
+→ Commited
+
+#git commit -m ‘ type message ‘
+
+
+Restoring the files in git 
+
+#git checkout -- .
+
+
+
+Git != GitHub
+
+PUSH AND PULL
+
+#git push origin master
+#git pull origin master
+
+
+
+
+
+
+ 
+
+How to communicate git and gitHub
+
+Check the git origin 
+#git remote -v
+
+Set the git origin
+#git remote set-url origin  https://github.com/companyabab/First.git
+
+Check git Origin
+#git remote -v 
+
+Push the 
+#git push origin master
+
+ How to reterive the public project :
+
+#git clone  https://github.com/companyabab/First.git
+
+
+
+
+
+
+
